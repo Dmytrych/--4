@@ -1,0 +1,132 @@
+html {
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    margin: 0%;
+    padding: 0%;
+}
+
+.disable-table-dots {
+    li{
+        list-style-type: none;
+    }
+}
+
+.maximize-height {
+    height: 100vw;
+}
+
+.align-center{
+    align-content: center;
+}
+
+.title-font {
+    color: white;
+    font-family: 'Oleo Script', Helvetica, sans-serif;
+    font-size: 18vw;
+    text-align: center;
+}
+
+.dropdown .btn {
+    outline: none;
+    border: 0px; 
+    box-sizing: none; 
+    background-color: transparent; 
+ }
+
+ .dropdown .btn {
+    outline: none;
+    border: 0px; 
+    box-sizing: none; 
+    background-color: transparent; 
+ }
+
+.header-bg-picture {
+    height: 30vw;
+    background-image: url(https://images.squarespace-cdn.com/content/v1/5c5c3833840b161566b02a76/1573133725500-Y5PCN0V04I86HDAT8AT0/ke17ZwdGBToddI8pDm48kLkXF2pIyv_F2eUT9F60jBl7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z4YTzHvnKhyp6Da-NYroOW3ZGjoBKy3azqku80C789l0iyqMbMesKd95J-X4EagrgU9L3Sa3U8cogeb0tjXbfawd0urKshkc5MgdBeJmALQKw/WBC_7095.jpg?format=2500w);
+    background-size: cover;
+    padding: 0;
+}
+
+.main-part {
+    margin: 0;
+    padding: 0;
+    height: fit-content;
+}
+
+.content-section {
+    margin: 0;
+    padding: 0;
+    width: 70vw;
+}
+
+.product-box {
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(226, 226, 226);
+    height: 20vw;
+    min-height: 15rem;
+    padding: 0;
+    margin: 0;
+}
+
+.image-box {
+    flex: 2;
+    min-height: 15rem;
+    min-width: 15rem;
+    width: 20vw;
+    height: 20vw;
+    background-size: cover;
+}
+
+.product-info {
+    margin: 1vw;
+    flex: 4;
+}
+
+.product-description {
+    height: 70%;
+    overflow-y: scroll;
+}
+
+@media (max-width: 912px){
+    .product-box {
+        align-items: center;
+        flex-direction: column;
+        height: 40rem;
+    }
+    .image-box {
+        display: flex;
+        align-items: center;
+        height: 40vh;
+        width: 40vh;
+    }
+    .product-info {
+        height: 40%;
+    }
+}
+
+.products-container {
+    margin-left: 10vw;
+    margin-right: 10vw;
+}
+
+.quantity-select-section {
+    display: flex;
+    flex-direction: row;
+    width: 30%;
+    .quantity-input {
+        min-width: 5rem;
+    }
+    .add-button {
+        min-width: 7rem;
+    }
+}
+
+.send-button {
+    width: 40vw;
+}
