@@ -68,7 +68,7 @@ async function catalog(args){
     products.forEach(element => {
         itemsMarkup += ` <div class="product-box m-2">
         <div class="">
-            <div class="image-box" style="background-image: url(/images/${element.Name.replaceAll(" ", "_")}.jpg);">
+            <div class="image-box" style="background-image: url(./images/${element.Name.replaceAll(" ", "_")}.jpg);">
                 
             </div>
         </div>
